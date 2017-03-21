@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "PressStart2P";
+    src: url(../img/PressStart2P.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "DisposableDroidBB_ital";
+    src: url(../img/DisposableDroidBB_ital.otf) format("opentype");
+}
+
+* {
+	font-family: "DisposableDroidBB_ital"
+}
+
+body {
+	background-color: #23745A;
+}
+
+nav {
+	display: inline;
+	width: 100%;
+	background-color: #23745A;
+}
+
+header {
+	color: white;
+	height: 420px;
+	width: 100%;
+	background-image: url("../img/dnbg1.jpg");
+	background-size: cover;	
+}
+
+#name {
+	font-family: "PressStart2P";
+	color: #4D0101;
+	padding-left: 10px;
+	font-size: 60px;
+}
+
+.menu {
+	float: right;
+	display: inline;
+	font-size: 40px;
+	padding: 10px;
+	color: white;	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {	
+	color: #23745A;
+}
+
+.title {
+	font-size: 55px;	
+	color: #23745A;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.text {
+	color: #4D0101;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	font-family: "PressStart2P";
+	height: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
