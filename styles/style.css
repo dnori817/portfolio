@@ -3,6 +3,11 @@
     src: url(../img/PressStart2P.ttf) format("truetype");
 }
 
+/*@font-face {
+    font-family: "finalf";
+    src: url(../img/finalf.ttf) format("truetype");
+}*/
+
 @font-face {
     font-family: "DisposableDroidBB_ital";
     src: url(../img/DisposableDroidBB_ital.otf) format("opentype");
@@ -72,8 +77,55 @@ footer {
 	font-family: "PressStart2P";
 	height: 30px;
 	background-color: black;
-	color: white;
+	color: #4D0101;
 	text-align: center;
 	padding-top: 10px;
 }
 
+#gallery div {
+	background-repeat: no-repeat;
+	border: solid 5px black;
+	background-size: cover;
+	display: block;
+	margin: 20px;
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+
+
+.img1 {
+	background-image: url("../img/gallery/image-1-large.jpg");
+}
+
+.img2 {
+	background-image: url("../img/gallery/image-2-large.jpg");
+}
+
+.img3 {
+	background-image: url("../img/gallery/image-3-large.jpg");
+}
+
+
+@media all and (max-width: 550px){
+
+	#gallery div {
+		border: none;
+		height: 250px;
+		width: 250px;
+		margin: 5px;
+	}
+
+  	.img1 {
+  		background-image: url("../img/gallery/image-1-small.jpg");
+  	}
+
+  	.img2 {
+  		background-image: url("../img/gallery/image-2-small.jpg");
+  	}
+
+  	.img3 {
+  		background-image: url("../img/gallery/image-3-small.jpg");
+  	}
+
+}
