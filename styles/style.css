@@ -34,8 +34,7 @@ header {
 	background-image: url("../img/dnbg1.jpg");
 	background-size: cover;	
 	margin-top: -80px;
-	border-bottom: 5px solid black;
-	
+	border-bottom: 5px solid black;	
 }
 
 #name {
@@ -68,10 +67,10 @@ a:hover {
 }
 
 .title {
-	font-size: 55px;	
+	font-size: 60px;	
 	color: #23745A;
 	padding-top: 15px;
-	padding-left: 15px;
+	padding-left: 35px;
 	text-align: ;
 }
 
@@ -92,6 +91,9 @@ footer {
 	clear: both;
 
 }
+#gallery {
+	padding: 0px;
+}
 
 #gallery div {
 	background-repeat: no-repeat;
@@ -99,9 +101,9 @@ footer {
 	border-radius: 2%;
 	background-size: cover;
 	display: block;
-	margin: 20px;
-	height: 500px;
-	width: 500px;
+	margin: 5px;
+	height: 502px;
+	width: 502px;
 	float: left;
 }
 
@@ -123,8 +125,8 @@ footer {
 
 	#gallery div {
 		border: none;
-		height: 250px;
-		width: 250px;
+		height: 300px;
+		width: 300px;
 		margin: 5px;
 	}
 
