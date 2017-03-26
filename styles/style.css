@@ -97,7 +97,7 @@ footer {
 
 #gallery div {
 	background-repeat: no-repeat;
-	border: solid 5px black;
+	border: 5px solid black;
 	border-radius: 2%;
 	background-size: cover;
 	display: block;
@@ -121,13 +121,44 @@ footer {
 }
 
 
-@media all and (max-width: 550px){
+@media all and (max-width: 1040px){
 
 	#gallery div {
-		border: none;
+		float: none;	
+		margin: 10px auto;
+	}
+}
+
+
+@media all and (max-width: 570px){
+	header {
+		margin-top: -30px;
+	}
+
+	#name {
+		font-size: 60px;
+		margin: 10px;
+		margin-top: 20px;
+		padding: 10px;
+	}
+
+	#title {
+		font-size: 30px;
+	}
+
+	#menu {
+		margin-right: 10px;
+	}
+
+	#menu li {
+		font-size: 28px;
+		margin-top: 90px;
+	}
+
+	#gallery div {
 		height: 300px;
 		width: 300px;
-		margin: 5px;
+		margin: 5px auto;
 	}
 
   	.img1 {
